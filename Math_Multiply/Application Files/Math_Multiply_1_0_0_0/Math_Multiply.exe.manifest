@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Math_Multiply.exe" version="1.0.0.0" publicKeyToken="e0bdd8960001ea85" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Math_Multiply" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Math_Multiply.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC マニフェスト オプション
+             Windows のユーザー アカウント制御のレベルを変更するには、
+             requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel 要素を指定すると、ファイルおよびレジストリの仮想化が無効にされます。
+            アプリケーションが下位互換性を保つためにこの仮想化を要求する場合、この要素を
+            削除します。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Math_Multiply.exe" size="64464">
+      <assemblyIdentity name="Math_Multiply" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/ZQ6t6YqBReEU1D31KzwjB7PTHDUPAdha4I2Y2m5xpc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Math_Multiply.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wDmrlTz6aNIp269ZO0+f+NuBph+l7PSF+/aeuhX4N/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- このアプリケーションがテストされ、動作するよう設計された Windows バージョンの
+           一覧。適切な要素をコメント解除すると、最も互換性のある環境を Windows が
+           自動的に選択します。-->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=POS-NAMBER01\ピカートラ" issuerKeyHash="2be0a1aa83df84ff9f92eebe6b814e9fc86ff3d1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XDGYns20lCz4Qa1KiT4Ui0CUVG71HgFvP1YQklFtWlg=</DigestValue></Reference></SignedInfo><SignatureValue>tGQXEr2+IfoeAT4ONZMQw4yI013xhHye3Y3jHnRXry9FNT6/rtLI0ihVnIFeG3uVHjUjtmDbC7WRwsXfTPzpESPgHJAypHLhFAPTXtAFGfhuLscebBlemy7pHjnGNtCKNDCxf5SKK/nKSEb/FBSXdWYGpqJjr6GF3pNuFtTsOYM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4+JhzzrswS3E1YuXf7qjxH15+9lErxjhHytULMv9Mf8+OE2RjvutpdQicffJFzDRFrBNsjq5ukcZ1Ip/gTN/mFnqlaUf7wTCLqxSNh8+cMXpK4aMMPYt0WIycQ6ks+JIXDdFC0+40TBf5C6x8D8JP3e5aSXUgJLcL8tjMLgQe7E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="585a6d519210563f6f011ef56e5494408b143e894aad41f82c94b4cd9e98315c" Description="" Url=""><as:assemblyIdentity name="Math_Multiply.exe" version="1.0.0.0" publicKeyToken="e0bdd8960001ea85" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=POS-NAMBER01\ピカートラ</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TJC9ojQXJG5whJeF450N9jePEzxkTm6Zz56GHvwwp7s=</DigestValue></Reference></SignedInfo><SignatureValue>SIUl3kSHMaiuwD62U+2EVoMyw8x+2rSf5pdK4EcEuNIK7LsvKSJsUh/spY/JQm8fujUCwXYWzThBqMfWYDycAJXVNzsOSEV9iIEZuqcdnlZS9Mwi/BoQtTYCaTHdtGccYVaMk9icraQB8acFQ0D3S4EpRCE2zd75ryf8Z4w4d5Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4+JhzzrswS3E1YuXf7qjxH15+9lErxjhHytULMv9Mf8+OE2RjvutpdQicffJFzDRFrBNsjq5ukcZ1Ip/gTN/mFnqlaUf7wTCLqxSNh8+cMXpK4aMMPYt0WIycQ6ks+JIXDdFC0+40TBf5C6x8D8JP3e5aSXUgJLcL8tjMLgQe7E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQM6FfEHX6tIZNmfv9QI1TxjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAUABPAFMALQBOAEEATQBCAEUAUgAwADEAXDDUMKsw/DDIMOkwHhcNMTgxMDA2MTUwODA4WhcNMTkxMDA2MjEwODA4WjAvMS0wKwYDVQQDHiQAUABPAFMALQBOAEEATQBCAEUAUgAwADEAXDDUMKsw/DDIMOkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOPiYc867MEtxNWLl3+6o8R9efvZRK8Y4R8rVCzL/TH/PjhNkY77raXUInH3yRcw0RawTbI6ubpHGdSKf4Ezf5hZ6pWlH+8Ewi6sUjYfPnDF6SuGjDD2LdFiMnEOpLPiSFw3RQtPuNEwX+QusfA/CT93uWkl1ICS3C/LYzC4EHuxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAdEpgZmv72440g8+Aa4oQJoxQUHVz88lns6/rkXeIJxelzWtdT5mlILeh8ceu3bhecZDmKbXVB50g5O1jXdcgGkdM6Pk18L6iVNeyg2MIjI9ksUIJgqFZdq51ftSu6NIfnPQK7BOQXxZMYgOYb8cX9UG6YEgKEPjVygydzV5son0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
